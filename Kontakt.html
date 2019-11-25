@@ -1,0 +1,97 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salon za negu pasa</title>
+    <link rel="icon" href="img/logo2.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+</head>
+
+<body id="kontakt">
+<div id="containerHome" class="clearfix">
+
+    <header id="headHome">
+        <div id="logo"></div>
+        <nav>
+            <ul>
+                <li><a class="active" href="Index.html">Početna</a></li>
+                <div class="dropdown">
+                    <li class="dropbtn"><a href="#">Usluge</a></li>
+                    <div class="dropdown-content">
+                        <a href="Sisanje.html">Šišanje</a>
+                        <a href="Kupanje.html">Kupanje</a>
+                    </div>
+                </div>
+                <li><a href="Galerija.html">Galerija</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="map">
+        <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.3995876675363!2d20.47303891525136!3d44.7726583790989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70576248bf79%3A0xadaf5cff042d3bd0!2z0KTQsNC60YPQu9GC0LXRgiDQvtGA0LPQsNC90LjQt9Cw0YbQuNC-0L3QuNGFINC90LDRg9C60LA!5e0!3m2!1ssr!2srs!4v1573676637234!5m2!1ssr!2srs"
+                    width=100% height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </p>
+    </div>
+
+
+    <form id="konForma">
+        <fieldset>
+            <legend>Kontaktiraj nas</legend>
+
+            <label>Vaše Ime i Prezime:</label><br>
+            <input id="imePrezime" type="text" placeholder="Unesite Vaše ime i prezime" required>
+            <br>
+
+            <label>E-mail:</label><br>
+            <input id="email" type="email" placeholder="Unesite Vaš e-mail" required>
+            <br>
+
+            <label>Označite vrstu proizvoda koja vas zanima:</label>
+            <br>
+
+            <input type="checkbox">Šišanje<br>
+            <input type="checkbox">Kupanje<br>
+
+            <label>Mobilni:</label><br>
+            <input id="phone" type="tel" placeholder="(+381)" required><br>
+
+            <label>Javljate se kao:</label><br>
+
+            <input type="radio" name="aa">Fizičko lice
+            <input type="radio" name="aa">Pravno lice <br>
+
+            <label>Poruka</label><br>
+            <textarea></textarea><br>
+
+            <input id="send" type="submit" value="Pošalji">
+            <input type="reset" value="Izbriši">
+
+        </fieldset>
+    </form>
+
+
+    <div id="kontInfo">
+        <h2 id="hkont">Kontakt informacije:</h2>
+        <p id="info1">
+            Salon za negu pasa<br>
+            Jove Ilica 151<br>
+            Mobilni: 061/111-222-3<br>
+            email: <span id="e1">jovansipka@gmail.com</span><br>
+        </p>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/java.js"></script>
+
+
+</body>
+
+
+</html>
